@@ -2,7 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
+    GameObject player;
+    Walk walk;
+
+    private void Awake()
+    {
+        walk = player.GetComponent<Walk>();
+    }
+
     // -------------------
     // METHODS
     // -------------------
