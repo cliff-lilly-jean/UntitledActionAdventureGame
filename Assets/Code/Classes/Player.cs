@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    GameObject player;
-    Walk walk;
-
-    private void Awake()
-    {
-        walk = player.GetComponent<Walk>();
-    }
 
     // -------------------
     // METHODS
